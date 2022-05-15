@@ -46,6 +46,20 @@ let resumeData = {
                         "Developed cross-platform remote monitoring C++/QT application.\n" +
                         "Built custom Linux OS for Radxa Rock and Raspberry Pi boards using Buildroot Tool.\n" +
                         "Wrote Bash scripts for automating custom Linux building processes."
+      },
+      {
+        "CompanyName":"Eretna Medical Devices",
+        "specialization":"Software Developer - Part Time",
+        "MonthOfLeaving":"May",
+        "YearOfLeaving":"2020",
+        "Achievements":"Worked with Qt/C++, Linux, Buildroot"
+      },
+      {
+        "CompanyName":"Eretna Medical Devices",
+        "specialization":"Software Developer - Intern",
+        "MonthOfLeaving":"Jun",
+        "YearOfLeaving":"2019",
+        "Achievements":"Worked with Qt/QML"
       }
     ],
     "skillsDescription":"Skills",
@@ -61,6 +75,9 @@ let resumeData = {
       },
       {
         "skillname":"Bash, Linux, Buildroot"
+      },
+      {
+        "skillname":"Python"
       }
     ],
     "portfolio":[
@@ -74,6 +91,11 @@ let resumeData = {
         "description":"CLI app",
         "imgurl":"images/web-crawler.jpg",
         "url":"https://github.com/ferhatsencer/web_crawler"
+      },
+      {
+        "name":"portfolio website",
+        "description":"web app",
+        "imgurl":"images/cpp.jpg"
       }
     ]
   }
