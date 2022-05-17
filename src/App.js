@@ -5,6 +5,7 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import BTCTracker from './components/BTCTracker';
 
 import ContactForm from './components/ContactForm';
 
@@ -81,10 +82,12 @@ class App extends Component {
       <div className="App">
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
+        <BTCTracker btcTracker/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>                 
-        {/* <ContactForm resumeData={resumeData}/>            */}
+         <ContactForm resumeData={resumeData}/>
+
+        <Footer resumeData={resumeData}/>
         {/* <div className="login-form">
           <div className="title">Sign In</div>
           {isSubmitted ? <div>User is successfully logged in</div> : renderForm}

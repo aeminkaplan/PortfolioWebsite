@@ -24,7 +24,19 @@ const ContactForm = () => {
   };
   
   return (
+   <section id="contact1">
+   <div
+         style={{
+           display: 'flex',
+           justifyContent: 'center',
+           alignItems: 'center',
+           height: '100vh',
+         }}
+       >
     <form onSubmit={handleSubmit}>
+
+    <div><h1>Contact Me!</h1></div>
+
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
@@ -39,6 +51,8 @@ const ContactForm = () => {
       </div>
       <button type="submit">{status}</button>
     </form>
+    </div>
+    </section>
   );
 };
 
